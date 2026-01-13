@@ -272,11 +272,11 @@ export function ChatRoom({ roomId, onLeave }: ChatRoomProps) {
         </div>
 
         {/* BOTTOM AD */}
-        <div className="sticky bottom-0 w-full bg-muted/30 border-t border-border px-4 py-2">
-          <div className="max-w-4xl mx-auto h-[90px] flex items-center justify-center border border-dashed border-border/50 rounded-lg">
+        {/* <div className="sticky bottom-0 w-full bg-muted/30 border-t border-border px-4 py-2"> */}
+          {/* <div className="max-w-4xl mx-auto h-[90px] flex items-center justify-center border border-dashed border-border/50 rounded-lg"> */}
             {/* <span className="opacity-50 text-xs">Bottom Ad</span> */}
-          </div>
-        </div>
+          {/* </div> */}
+        {/* </div> */}
       </div>
 
       {/* RIGHT AD */}
