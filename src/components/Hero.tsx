@@ -30,7 +30,7 @@ export function Hero({ onCreateRoom, onJoinRoom }: HeroProps) {
           <div className="p-3 rounded-xl bg-accent/10 border border-accent/20">
             <MessageCircle className="w-8 h-8 text-accent" />
           </div>
-          <span className="text-2xl font-bold text-foreground">AnonChat</span>
+          <span className="text-2xl font-bold text-foreground">ChatAnyone</span>
         </div>
 
         {/* Headline */}

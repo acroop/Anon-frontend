@@ -16,35 +16,29 @@ export function Footer() {
           {/* Brand */}
           <div className="flex items-center gap-2">
             <MessageCircle className="w-5 h-5 text-accent" />
-            <span className="font-semibold text-foreground">AnonChat</span>
+            <span className="font-semibold text-foreground">ChatAnyone</span>
           </div>
 
           {/* Links */}
-          <nav className="flex items-center gap-6">
-            <a
-              href="#about"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              About
-            </a>
-            <a
-              href="#privacy"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="#contact"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Contact
-            </a>
-          </nav>
-
+          
+          
           {/* Copyright */}
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} AnonChat
-          </p>
+          {/* Copyright + Developer */}
+          <div className="flex items-start gap-2 text-sm justify-end text-muted-foreground">
+            <span>© {new Date().getFullYear()} ChatAnyone</span>
+            <span className="hidden sm:inline">•</span>
+            <a
+              href="#"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-foreground transition-colors group"
+            >
+
+              <span className="group-hover:none">
+                Developed by <span className="font-medium">RAY_theDeveloper & Acromat</span>
+              </span>
+            </a>
+          </div>
+
         </div>
       </div>
     </footer>
