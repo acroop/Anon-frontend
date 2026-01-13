@@ -200,7 +200,7 @@ export function ChatRoom({ roomId, onLeave }: ChatRoomProps) {
       {/* LEFT AD */}
       <div className="hidden lg:flex w-40 xl:w-52 shrink-0 items-center justify-center bg-muted/20 border-r border-border">
         <div className="h-[600px] w-full flex items-center justify-center border border-dashed border-border/50 rounded-lg m-2">
-          <span className="opacity-50 text-xs">Left Ad</span>
+          {/* <span className="opacity-50 text-xs">Left Ad</span> */}
         </div>
       </div>
 
@@ -274,7 +274,7 @@ export function ChatRoom({ roomId, onLeave }: ChatRoomProps) {
         {/* BOTTOM AD */}
         <div className="sticky bottom-0 w-full bg-muted/30 border-t border-border px-4 py-2">
           <div className="max-w-4xl mx-auto h-[90px] flex items-center justify-center border border-dashed border-border/50 rounded-lg">
-            <span className="opacity-50 text-xs">Bottom Ad</span>
+            {/* <span className="opacity-50 text-xs">Bottom Ad</span> */}
           </div>
         </div>
       </div>
@@ -282,7 +282,7 @@ export function ChatRoom({ roomId, onLeave }: ChatRoomProps) {
       {/* RIGHT AD */}
       <div className="hidden lg:flex w-40 xl:w-52 shrink-0 items-center justify-center bg-muted/20 border-l border-border">
         <div className="h-[600px] w-full flex items-center justify-center border border-dashed border-border/50 rounded-lg m-2">
-          <span className="opacity-50 text-xs">Right Ad</span>
+          {/* <span className="opacity-50 text-xs">Right Ad</span> */}
         </div>
       </div>
     </div>

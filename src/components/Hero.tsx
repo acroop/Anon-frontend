@@ -77,7 +77,7 @@ export function Hero({ onCreateRoom, onJoinRoom }: HeroProps) {
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-full max-w-2xl px-4">
         <div className="bg-muted/30 backdrop-blur-sm rounded-lg border border-border/30 p-3 text-center text-xs text-muted-foreground">
           {/* Monetag Ad Placeholder - Insert ad script here */}
-          <span className="opacity-50">Advertisement</span>
+          {/* <span className="opacity-50">Advertisement</span> */}
         </div>
       </div>
     </section>
