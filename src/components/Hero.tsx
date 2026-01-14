@@ -15,9 +15,9 @@ const features = [
 
 export function Hero({ onCreateRoom, onJoinRoom }: HeroProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative  overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
@@ -73,13 +73,66 @@ export function Hero({ onCreateRoom, onJoinRoom }: HeroProps) {
         </div>
       </div>
 
-      {/* Ad Placeholder - Non-intrusive banner */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-full max-w-2xl px-4">
-        <div className="bg-muted/30 backdrop-blur-sm rounded-lg border border-border/30 p-3 text-center text-xs text-muted-foreground">
-          {/* Monetag Ad Placeholder - Insert ad script here */}
-          {/* <span className="opacity-50">Advertisement</span> */}
+      {/* Hero FAQ */}
+      <div className="relative z-10 mt-20 px-4">
+        <div className="max-w-3xl mx-auto rounded-2xl bg-card/60 backdrop-blur-md border border-border/50 shadow-lg">
+          <div className="p-6 sm:p-8">
+            <h2 className="text-2xl font-bold text-center text-foreground mb-6">
+              Frequently Asked Questions
+            </h2>
+
+            <div className="space-y-4 text-left">
+              <div>
+                <h3 className="font-semibold text-foreground">
+                  Is ChatAnyone really anonymous?
+                </h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  Yes. We don’t require accounts, emails, or usernames. Chats are temporary and disappear once you leave the room.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-foreground">
+                  How does a chat room work?
+                </h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  A unique Chat ID is generated. Anyone with that ID can join the same
+                  private room instantly chat in real time.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-foreground">
+                  Are messages or files stored anywhere?
+                </h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  No. Messages and shared files are never saved to a database and exist
+                  only during the session.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-foreground">
+                  Can I share files securely?
+                </h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                 Yes. You can share images and files securely inside a room. File size is limited for safety and performance.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-foreground">
+                  Do I need to sign up or install anything?
+                </h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  No signup, no installation. Just open the site and start chatting.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
     </section>
   );
 }
