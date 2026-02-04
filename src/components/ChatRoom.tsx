@@ -125,7 +125,7 @@ export function ChatRoom({ roomId, onLeave }: ChatRoomProps) {
         .upload(path, selectedFile);
 
       if (error) {
-        alert("Upload failed");
+        alert("File upload is temporarily unavailable. Please try again later.");
         return;
       }
 
